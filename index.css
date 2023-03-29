@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+:root {
+    --gray: #383838;
+    --orange: #ff6f00;
+    --white: #dae0e4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--gray);
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.container {
+    margin: 100px 50px;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+button:hover {
+    transform: scale(.90);
+}
+
+hr {
+    opacity: 10%;
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#password1 {
+    visibility: hidden;
+}
+
+.password-css {
+    background-color: #282828;
+    padding: 10px 75px;
+    border-radius: 8px;
+}
+
+.copy-container {
+    display: flex;
+    justify-content: center;
+}
+
+#copy {
+    visibility: hidden;
+}
